@@ -9,12 +9,17 @@
     "description": {
       "translate": "advancements.emeraldswordachievement.descr"
     },
+    "show_toast": true,
+    "announce_to_chat": true,
     "frame": "challenge"
   },
+  "parent": "minecraft:story/mine_diamond",
   "criteria": {
-    "emeraldswordachievement": {
-      "trigger": "emeraldswordachievement"
+    "requirement": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "simplisticsuperswords:emeraldsword"
+      }
     }
-  },
-  "parent": "minecraft:story/mine_diamond"
+  }
 }
