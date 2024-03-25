@@ -1,0 +1,45 @@
+modLoader="javafml"
+
+loaderVersion="[36,)"
+
+license="All rights reserved"
+
+issueTrackerURL="https://github.com/KingOfTheGamesYT/Simplistic-Super-swords/issues"
+
+[[mods]]
+itemIcon="simplisticsuperswords:ironadvsword"
+
+configBackground="simplisticsuperswords:textures/blocks/amethystore.png"
+
+modId="simplisticsuperswords"
+
+version="1.5.2"
+
+displayName="Simplistic Super Swords"
+
+displayURL="https://legacy.curseforge.com/minecraft/mc-mods/simplistic-super-swords"
+
+logoFile="logo.png"
+
+credits="Thanks for this mod goes to GGCrosby for making the 1.12.2 versions"
+
+authors=["RedRoseWarrior1 aka DevMaster1015"]
+
+description='''Adds many different swords with different abilities and stats.
+'''
+
+# Base Forge
+[[dependencies.simplisticsuperswords]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+# Base Minecraft
+[[dependencies.simplisticsuperswords]]
+    modId="minecraft"
+    mandatory=true
+versionRange="[1.16.5,1.17]"
+    ordering="NONE"
+    side="BOTH"

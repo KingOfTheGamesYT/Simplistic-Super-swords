@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "simplisticsuperswords:emeraldsword"
+    },
+    "title": {
+      "translate": "advancements.emeraldswordachievement.title"
+    },
+    "description": {
+      "translate": "advancements.emeraldswordachievement.descr"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "emeraldswordachievement": {
+      "trigger": "emeraldswordachievement"
+    }
+  },
+  "parent": "minecraft:story/mine_diamond"
+}

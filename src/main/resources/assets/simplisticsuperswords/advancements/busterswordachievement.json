@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "simplisticsuperswords:bustersword"
+    },
+    "title": {
+      "translate": "advancements.busterswordachievement.title"
+    },
+    "description": {
+      "translate": "advancements.busterswordachievement.descr"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "busterswordachievement": {
+      "trigger": "busterswordachievement"
+    }
+  },
+  "parent": "CUSTOM:slicingswordachievement"
+}

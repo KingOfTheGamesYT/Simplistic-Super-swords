@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "simplisticsuperswords:pinkcloth"
+    },
+    "title": {
+      "translate": "advancements.magearmorach.title"
+    },
+    "description": {
+      "translate": "advancements.magearmorach.descr"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "magearmorach": {
+      "trigger": "magearmorach"
+    }
+  },
+  "parent": "CUSTOM:manaach"
+}

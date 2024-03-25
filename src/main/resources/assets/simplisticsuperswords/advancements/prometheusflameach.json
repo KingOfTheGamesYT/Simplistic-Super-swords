@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "simplisticsuperswords:prometheusflame"
+    },
+    "title": {
+      "translate": "advancements.prometheusflameach.title"
+    },
+    "description": {
+      "translate": "advancements.prometheusflameach.descr"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "prometheusflameach": {
+      "trigger": "prometheusflameach"
+    }
+  },
+  "parent": "CUSTOM:crimsonstaffach"
+}

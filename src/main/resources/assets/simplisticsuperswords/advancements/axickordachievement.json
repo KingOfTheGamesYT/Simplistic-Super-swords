@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "simplisticsuperswords:ironaxickord"
+    },
+    "title": {
+      "translate": "advancements.axickordachievement.title"
+    },
+    "description": {
+      "translate": "advancements.axickordachievement.descr"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "axickordachievement": {
+      "trigger": "axickordachievement"
+    }
+  },
+  "parent": "CUSTOM:tinyswordachievement"
+}

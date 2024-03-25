@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "simplisticsuperswords:crimsonstaff"
+    },
+    "title": {
+      "translate": "advancements.crimsonstaffach.title"
+    },
+    "description": {
+      "translate": "advancements.crimsonstaffach.descr"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "crimsonstaffach": {
+      "trigger": "crimsonstaffach"
+    }
+  },
+  "parent": "CUSTOM:manaach"
+}

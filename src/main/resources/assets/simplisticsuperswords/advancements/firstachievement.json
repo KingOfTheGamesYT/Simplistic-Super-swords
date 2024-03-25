@@ -1,0 +1,20 @@
+{
+  "display": {
+    "background": "minecraft:textures/blocks/stone.png",
+    "icon": {
+      "item": "simplisticsuperswords:advancedsword"
+    },
+    "title": {
+      "translate": "advancements.firstachievement.title"
+    },
+    "description": {
+      "translate": "advancements.firstachievement.descr"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "firstachievement": {
+      "trigger": "firstachievement"
+    }
+  }
+}

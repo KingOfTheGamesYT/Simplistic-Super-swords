@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "simplisticsuperswords:slicingsword"
+    },
+    "title": {
+      "translate": "advancements.slicingswordachievement.title"
+    },
+    "description": {
+      "translate": "advancements.slicingswordachievement.descr"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "slicingswordachievement": {
+      "trigger": "slicingswordachievement"
+    }
+  },
+  "parent": "CUSTOM:gemswordachievement"
+}
