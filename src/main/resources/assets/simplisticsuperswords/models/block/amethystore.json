@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "blocks/amethystore",
-    "particle": "blocks/amethystore"
+    "all": "simplisticsuperswords:blocks/amethystore",
+    "particle": "simplisticsuperswords:blocks/amethystore"
   }
 }
