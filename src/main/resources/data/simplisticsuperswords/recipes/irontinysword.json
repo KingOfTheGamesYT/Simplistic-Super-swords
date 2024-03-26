@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "i i",
-    "iIi"
+    "i",
+    "I"
   ],
   "key": {
     "i": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:iron_nugget"
     },
     "I": {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "simplisticsuperswords:bustersword",
+    "item": "simplisticsuperswords:irontinysword",
     "count": 1
   }
 }

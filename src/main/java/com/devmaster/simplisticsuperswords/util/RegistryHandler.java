@@ -48,6 +48,7 @@ public class RegistryHandler {
     public static final RegistryObject<SlicingSword> SLICING_SWORD = ITEMS.register("slicingsword", SlicingSword::new);
     public static final RegistryObject<BusterSword> BUSTER_SWORD = ITEMS.register("bustersword", BusterSword::new);
     public static final RegistryObject<IronShortSword> IRON_SHORT_SWORD = ITEMS.register("ironshortsword", IronShortSword::new);
+    public static final RegistryObject<IronTinySword> IRON_TINY_SWORD = ITEMS.register("irontinysword", IronTinySword::new);
 
 
 
