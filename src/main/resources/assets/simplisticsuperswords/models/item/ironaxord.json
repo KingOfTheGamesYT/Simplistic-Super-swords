@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "items/iron_sword6"
+    "layer0": "simplisticsuperswords:items/iron_sword6"
   }
 }
