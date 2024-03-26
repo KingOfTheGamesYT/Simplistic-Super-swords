@@ -1,0 +1,38 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "simplisticsuperswords:advancedsword"
+    },
+    "title": {
+      "translate": "advancements.firstachievement.title"
+    },
+    "description": {
+      "translate": "advancements.firstachievement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advanced_sword": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "simplisticsuperswords:advancedsword"
+      }
+    },
+    "advanced_sword1": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "simplisticsuperswords:advancedsword1"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "advanced_sword",
+      "advanced_sword1"
+    ]
+  ]
+}
