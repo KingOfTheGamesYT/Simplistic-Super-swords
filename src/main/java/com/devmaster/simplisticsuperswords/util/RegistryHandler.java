@@ -1,5 +1,6 @@
 package com.devmaster.simplisticsuperswords.util;
 
+import com.devmaster.simplisticsuperswords.items.AdvancedSword;
 import com.devmaster.simplisticsuperswords.items.EmeraldSword;
 import com.devmaster.simplisticsuperswords.misc.SimplisticSuperSwords;
 
@@ -44,5 +45,6 @@ public class RegistryHandler {
 
     //Tools and Weapons
     public static final RegistryObject<EmeraldSword> EMERALD_SWORD = ITEMS.register("emeraldsword", EmeraldSword::new);
+    public static final RegistryObject<AdvancedSword> ADVANCED_SWORD = ITEMS.register("advancedsword", AdvancedSword::new);
 
 }

@@ -1,28 +1,23 @@
 package com.devmaster.simplisticsuperswords.items;
 
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.util.text.ITextComponent;
-import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.world.World;
 import net.minecraft.world.server.ServerWorld;
 
-import java.util.List;
-
-public class EmeraldSword extends SwordItem {
+public class AdvancedSword extends SwordItem {
     private static IItemTier iItemTier = new IItemTier() {
 
         public int getMaxUses() {
-            return (Integer) 1058;
+            return (Integer) 500;
         }
 
         public float getEfficiency() {
-            return (Integer) 10;
+            return (Integer) 6;
         }
 
         public float getAttackDamage() {
@@ -42,8 +37,8 @@ public class EmeraldSword extends SwordItem {
         }
     };
 
-    public EmeraldSword() {
-        super(iItemTier, (Integer)14, -(float)2.4, (new Properties()).group(ItemGroup.COMBAT));
+    public AdvancedSword() {
+        super(iItemTier, (Integer)10, -(float)2.4, (new Properties()).group(ItemGroup.COMBAT));
     }
 
     public void unlockDestroyACH(PlayerEntity entity, World world) {
