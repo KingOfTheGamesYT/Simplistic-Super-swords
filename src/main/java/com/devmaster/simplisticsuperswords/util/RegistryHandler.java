@@ -1,9 +1,6 @@
 package com.devmaster.simplisticsuperswords.util;
 
-import com.devmaster.simplisticsuperswords.items.AdvancedSword;
-import com.devmaster.simplisticsuperswords.items.BusterSword;
-import com.devmaster.simplisticsuperswords.items.EmeraldSword;
-import com.devmaster.simplisticsuperswords.items.SlicingSword;
+import com.devmaster.simplisticsuperswords.items.*;
 import com.devmaster.simplisticsuperswords.misc.SimplisticSuperSwords;
 
 import net.minecraft.block.Block;
@@ -50,6 +47,8 @@ public class RegistryHandler {
     public static final RegistryObject<AdvancedSword> ADVANCED_SWORD = ITEMS.register("advancedsword", AdvancedSword::new);
     public static final RegistryObject<SlicingSword> SLICING_SWORD = ITEMS.register("slicingsword", SlicingSword::new);
     public static final RegistryObject<BusterSword> BUSTER_SWORD = ITEMS.register("bustersword", BusterSword::new);
+    public static final RegistryObject<IronShortSword> IRON_SHORT_SWORD = ITEMS.register("ironshortsword", IronShortSword::new);
+
 
 
 }

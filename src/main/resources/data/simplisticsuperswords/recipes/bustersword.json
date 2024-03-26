@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "i i",
-    "iIi"
+    "i",
+    "I"
   ],
   "key": {
     "i": {
       "item": "minecraft:iron_ingot"
     },
     "I": {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "simplisticsuperswords:bustersword",
+    "item": "simplisticsuperswords:ironshortsword",
     "count": 1
   }
 }
