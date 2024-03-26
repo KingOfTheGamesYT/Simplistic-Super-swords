@@ -18,7 +18,7 @@ import net.minecraft.world.server.ServerWorld;
 
 import java.util.List;
 
-public class SlicingSword extends SwordItem {
+public class BusterSword extends SwordItem {
     private static IItemTier iItemTier = new IItemTier() {
 
         public int getMaxUses() {
@@ -46,8 +46,8 @@ public class SlicingSword extends SwordItem {
         }
     };
 
-    public SlicingSword() {
-        super(iItemTier, (Integer)10, -(float)2.4, (new Properties()).group(ItemGroup.COMBAT));
+    public BusterSword() {
+        super(iItemTier, (Integer)11, -(float)2.4, (new Properties()).group(ItemGroup.COMBAT));
     }
 
     public void unlockDestroyACH(PlayerEntity entity, World world) {
@@ -66,13 +66,5 @@ public class SlicingSword extends SwordItem {
             playerEntity.sendBreakAnimation(EquipmentSlotType.MAINHAND);
         });
         return true;
-    }
-    public void addInformation(ItemStack stack, World worldIn, List<ITextComponent> tooltip, ITooltipFlag flagIn){
-        int lvl = EnchantmentHelper.getEnchantmentLevel(Enchantments.SWEEPING, stack);
-        if (lvl <= 0) {
-            stack.addEnchantment(Enchantments.SWEEPING,2);
-            //change the Enchantments.SILK_TOUCH to whatever you desire for both of statements
-// Enchantments module by Alchemy
-        }
     }
 }
