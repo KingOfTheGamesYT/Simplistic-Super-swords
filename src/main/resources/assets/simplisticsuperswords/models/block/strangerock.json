@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "blocks/strangerock",
-    "particle": "blocks/strangerock"
+    "all": "simplisticsuperswords:blocks/strangerock",
+    "particle": "simplisticsuperswords:blocks/strangerock"
   }
 }
