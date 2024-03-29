@@ -4,22 +4,12 @@ import com.devmaster.simplisticsuperswords.items.*;
 import com.devmaster.simplisticsuperswords.misc.SimplisticSuperSwords;
 
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.entity.*;
 import net.minecraft.item.*;
-import net.minecraft.util.RegistryKey;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.SoundEvent;
-import net.minecraft.util.registry.Registry;
-import net.minecraft.world.World;
 
-import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-
-import java.util.function.Supplier;
 
 
 public class RegistryHandler {
@@ -49,6 +39,7 @@ public class RegistryHandler {
     public static final RegistryObject<BusterSword> BUSTER_SWORD = ITEMS.register("bustersword", BusterSword::new);
     public static final RegistryObject<IronShortSword> IRON_SHORT_SWORD = ITEMS.register("ironshortsword", IronShortSword::new);
     public static final RegistryObject<IronTinySword> IRON_TINY_SWORD = ITEMS.register("irontinysword", IronTinySword::new);
+    public static final RegistryObject<IronAxord> IRON_AXCORD = ITEMS.register("ironaxord", IronAxord::new);
 
 
 
