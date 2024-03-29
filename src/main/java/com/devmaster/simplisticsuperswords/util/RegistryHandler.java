@@ -40,6 +40,8 @@ public class RegistryHandler {
     public static final RegistryObject<IronShortSword> IRON_SHORT_SWORD = ITEMS.register("ironshortsword", IronShortSword::new);
     public static final RegistryObject<IronTinySword> IRON_TINY_SWORD = ITEMS.register("irontinysword", IronTinySword::new);
     public static final RegistryObject<IronAxord> IRON_AXCORD = ITEMS.register("ironaxord", IronAxord::new);
+    public static final RegistryObject<IronPickord> IRON_PICKORD = ITEMS.register("ironpickord", IronPickord::new);
+
 
 
 
