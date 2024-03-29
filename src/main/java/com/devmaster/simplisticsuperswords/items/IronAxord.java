@@ -48,7 +48,7 @@ public class IronAxord extends ToolItem {
     };
 
     public IronAxord() {
-        super((Integer)7, -(float)1.7, iItemTier, EFFECTIVE_ON_BLOCKS, (new Properties()).group(ItemGroup.COMBAT) );
+        super((Integer)7, -(float)3.1, iItemTier, EFFECTIVE_ON_BLOCKS, (new Properties()).group(ItemGroup.COMBAT) );
     }
 
     public float getDestroySpeed(ItemStack stack, BlockState state) {
